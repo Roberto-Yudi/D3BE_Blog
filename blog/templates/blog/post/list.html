@@ -15,6 +15,6 @@
             Published: {{ post.publish }} by {{ post.author }}
         </p>
     {% endfor %}    
-
+{% include "pagination.html" with page=posts %}
 {% endblock %}
  
