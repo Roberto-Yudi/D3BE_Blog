@@ -2,7 +2,7 @@ from django import template
 from django.utils.safestring import mark_safe 
 from django.db.models import Count
 from ..models import Post
-# import markdown
+import markdown
 
 register = template.Library()
 
