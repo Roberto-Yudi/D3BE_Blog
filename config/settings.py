@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     #local 
     'blog',
+
+    # 3rd party
+    'taggit',
 ]
 
 MIDDLEWARE = [
